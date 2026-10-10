@@ -44,9 +44,14 @@ My research focuses on **Natural Language Processing (NLP)** and **Machine Learn
 
 ## Publications
 
-{% for post in site.publications reversed %}
-- [**{{ post.title }}**]({{ base_path }}{{ post.url }}), {{ post.authors }}, *{{ post.venue }}* ({{ post.date | date: "%Y" }})
-{% endfor %}
+1. [**SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond**]({{ base_path }}/publication/2025-synlogic) — *arXiv*, 2025. **Junteng Liu** (first author), Yuanxiang Fan, Zhuo Jiang, Han Ding, Yongyi Hu, Chi Zhang, Yiqi Shi, Shitong Weng, Aili Chen, Shiqi Chen, Yunan Huang, Mozhi Zhang, Pengyu Zhao, Junjie Yan, Junxian He. Code available on GitHub.
+2. [**On the Perception Bottleneck of VLMs for Chart Understanding**]({{ base_path }}/publication/2025-perception-bottleneck) — *arXiv*, 2025. **Junteng Liu** (first author), Weihao Zeng, Xiwen Zhang, Yijun Wang, Zifei Shan, Junxian He. Code: GitHub repository `Vision4Chart`.
+3. [**On the Universal Truthfulness Hyperplane Inside LLMs**]({{ base_path }}/publication/2024-universal-truthfulness-hyperplane) — *EMNLP 2024*. **Junteng Liu** (first author), Shiqi Chen, Yu Cheng, Junxian He. Code: GitHub repository `Universal_Truthfulness_Hyperplane`.
+4. [**In-Context Sharpness as Alerts: An Inner Representation Perspective for Hallucination Mitigation**]({{ base_path }}/publication/2024-in-context-sharpness) — *ICML 2024*. Shiqi Chen, Miao Xiong, **Junteng Liu**, Zhengxuan Wu, Teng Xiao, Siyang Gao, Junxian He.
+5. [**C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models**]({{ base_path }}/publication/2023-c-eval) — *NeurIPS 2023*. Yuzhen Huang, Yuzhuo Bai, Zhihao Zhu, Junlei Zhang, Jinghan Zhang, Tangjun Su, **Junteng Liu**, Chuancheng Lv, Yikai Zhang, Jiayi Lei, Yao Fu, Maosong Sun, Junxian He.
+6. [**Composing Parameter-Efficient Modules with Arithmetic Operations**]({{ base_path }}/publication/2023-composing-parameter-efficient-modules) — *NeurIPS 2023*. Jinghan Zhang, Shiqi Chen, **Junteng Liu**, Junxian He.
+
+The full publications list is also available on the [Publications]({{ base_path }}/publications/) subpage.
 
 ## Contact Information
 
